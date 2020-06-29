@@ -1,0 +1,67 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(images/diagoona-bg-1.jpg);
+    background-size: cover
+
+    background-position: ;
+   
+    font-family: sans-serif;
+
+}
+.mb1 
+{
+    background: rgb(189, 195, 199);
+    text-align: center;
+}
+.mb1 ul 
+{
+    display: inline-flex;
+    list-style: none;
+    color:black
+    
+
+}
+.mb1 ul li
+{
+    width: 120px;
+    margin: 10px;
+    padding: 15px;
+}
+.mb1 ul li a
+{
+    text-decoration: none;
+    color:black;
+
+}
+.hm1, .mb1 ul li:hover
+{
+    background: #7F8C8D;
+    border-radius: 5px;
+}
+.mb1 .fa 
+{
+    margin-right: 8px;
+}
+.mba 
+{
+    display: none;
+
+}
+.mb1 ul li:hover .mba 
+{
+    display: block;
+    position: absolute;
+    background:#7F8C8D ;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.mb1 ul li:hover  .mba ul 
+{
+    display: block;
+    margin: 10px;
+}
